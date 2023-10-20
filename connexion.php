@@ -4,7 +4,7 @@
  * création d'objet PDO de la connexion qui sera représenté par la variable $cnx
  */
 $user =  "taha.sefoudine";
-$pass =  "aiwook1Uig";
+$pass =  "mdp";
 try {
     $cnx = new PDO('mysql:host=sqletud.u-pem.fr;dbname=taha.sefoudine_db',$user,$pass); 
 }
