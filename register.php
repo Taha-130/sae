@@ -53,7 +53,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     if ($mail ->SMTPAuth) {
                     $mail->SMTPSecure = 'ssl';
                     $mail->Username = 'taha.sefoudine@edu.univ-eiffel.fr';
-                    $mail->Password = 'aiwook1Uig';
+                    $mail->Password = 'mdp';
 
                     }
 
