@@ -36,7 +36,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     $mail->CharSet = 'UTF-8';
                     $mail->SMTPSecure = 'ssl';
                     $mail->Username = 'taha.sefoudine@edu.univ-eiffel.fr';
-                    $mail->Password = 'aiwook1Uig';
+                    $mail->Password = 'mdp';
 
                     $mail->From = "taha.sefoudine@edu.univ-eiffel.fr"; // Set your email as the sender
                     $mail->FromName = "Connexion Message"; // Set the sender's name
